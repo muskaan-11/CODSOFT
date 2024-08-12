@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display:flex;
+    width:100%;
+    margin:auto;
+    padding:20px 0;
+    align-items:center;
+    justify-content:space-between;
+    background-color:aliceblue;
+    
+}
+
+header img{
+    margin-left:100px;
+    height:50px;
+    width:70px;
+    border-radius:50%;
+    filter: opacity(97%);
+}
+header img:hover{
+    transform:scale(1.2);
+}
+
+header ul li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 55px;
+}
+
+header ul li a{
+    font-size:15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+header ul li a:hover{
+    color:rgb(225, 122, 62);
+    font-size:16px;
+}
+
+#tagline{
+    font-size:20px;
+    margin-top:15px;
+    font-family:cursive;
+    color:rgb(20, 109, 47);
+
+}
+#about,#skills,#project{
+    height:100vh;
+    background-color:rgb(247, 247, 240);
+}
+#about h3,#skills h3,#project h3,#resume h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(225, 122, 62);
+    font-size:20px;
+    margin-left:700px;
+    margin-top:15px;
+}
+.part1{
+    width:35%;
+    height:auto;
+    margin-left:100px;
+    margin-top:25px;
+}
+span{
+    color:rgb(104, 60, 146);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.part1 p{
+    font-family:cursive;
+    font-size: 20px;
+}
+
+.part2{
+   width:45%;
+   position:absolute;
+   right:120px;
+}
+.part2 img{
+    height:auto;
+    width:400px;
+    position:absolute;
+    left:50%;
+    bottom:180px;
+    transform:translateX(-50%);
+    transition:bottom 1s,left 1s;
+
+}
+.part2:hover .shape{
+    bottom:130px;
+}
+.part2:hover .girl{
+    left:45%;
+}
+
+.skills-name ul{
+    display:flex;
+    width:90%;
+    margin-left:40px;
+    align-items:center;
+    justify-content:space-between;
+    list-style: none;
+    height:650px;
+    
+}
+.skills-name li{
+    padding:40px;
+    
+ }
+ .skills-name li img{
+    height:150px;
+    width:300px;
+    position: relative;
+    margin-left:40px;
+    border-radius:20%;
+    border:3px solid rgb(104, 103, 103);
+ }
+ .skills-name li p{
+    font-size:20px;
+    font-family:cursive;
+    position:relative;
+    margin-top:20px;
+    margin-left:15px;
+    border:2px solid rgb(148, 145, 145);
+    border-radius:4%;
+    background-color: azure;
+ }
+ .skills-name span{
+    font-size:30px;
+    font-weight:bold;
+ }
+
+ .project-name ul{
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 20 px;
+    list-style:none;
+ }
+ .project-name img{
+    height:150px;
+    width:300px;
+}
+.project-name img:hover{
+    filter: brightness(70%);
+}
+.project-name-item{
+    padding:40px;
+    background-color: rgba(227, 228, 235, 0.8);
+    border: 1px solid rgba(144, 155, 191, 0.8);
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin:20px 30px 20px 30px;
+    border-radius: 4%;
+}
+.project-name-item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    border:2px solid rgb(132, 131, 201);
+    border-radius:10%;
+    background-color: rgb(177, 177, 230);
+    padding:4px;
+    font-size:15px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    bottom:0;
+    color:rgb(26, 25, 25);
+}
+.project-name-item a:hover{
+    padding:6px;
+    background-color:rgb(175, 175, 179);
+}
+
+#resume{
+    height:550px;
+    margin-top:25px;
+}
+
+.resume-link{
+    margin:20px 200px 0px 200px;
+    height:400px;
+    background-color: rgb(210, 208, 205);
+    border-radius:15%;
+    border:4px solid rgb(94, 75, 75);
+    padding-top:100px;
+}
+.resume-link a{
+    position :relative;
+    margin-left:320px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    border:2px dotted rgb(28, 27, 27);
+    border-radius:20px;
+    padding:10px 30px 10px 30px;
+    background-color:antiquewhite;
+    text-transform:uppercase ;
+
+}
+
+.resume-link a:hover{
+    background-color: rgb(219, 237, 222);
+    padding:12px 32px 12px 32px;
+}
+.resume-link img{
+    height:300x;
+    width:350px;
+    margin-top:60px;
+    margin-left:10px;
+    border-radius: 10px;
+    border:2px dashed black;
+
+}
+
+.resume-link img:hover{
+    filter: contrast(70%);
+    
+}
+
+#contact-items{
+    margin-top: 25px;
+    display:flex;
+    justify-content:space-around;
+    background-color:rgb(31, 30, 30);
+    color:white;
+    height:100px;
+}
+
+
+#contact-items h1,#contact-items ul{
+    margin-top:28px;
+}
+#contact-items ul li a{
+    color:white;
+}
+
+#contact-items ul{
+    list-style:circle;
+}
+
+#footer {
+    background-color:black;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    height:80px;
+}
+#footer ul{
+    padding:15px;
+    display:flex;
+    justify-content:center;
+    list-style: none;
+    gap: 10px;
+}
+
+#footer p{
+    text-align: center;
+}

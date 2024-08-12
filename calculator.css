@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("https://st.depositphotos.com/2129603/3578/i/450/depositphotos_35788013-stock-photo-man-doing-his-accounting-financial.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#header{
+    font-style:normal;
+    color:rgb(1, 26, 52);
+    text-decoration-line: underline;
+    margin-left:585px;
+    font-weight:bolder;
+  
+   
+}
+
+
+#outer-box{
+    width:25%;
+    background-color:#ced2d2;
+    margin:auto;
+    border-radius: 5%;
+    border:2px solid;
+    margin-top:30px;
+    height:500px;
+}
+
+#answer-box{
+    height:35px;
+    width:360px;
+    background-color:rgb(131, 137, 172);
+    margin-top:12px;
+    margin-left:5px;
+    font-size: 30px;
+    font-style:italic;
+    text-align: right;
+    padding-right: 5px;
+    color:white;
+}
+#values{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-left:25px;
+    margin-top:7px;
+}
+
+.inputs{
+     height:10vmin;
+     width:10vmin;
+     background-color:#7b76af;
+     border:none;
+     border-radius:1vmin;
+     font-size:5vmin;
+     color:rgb(250, 240, 240);
+
+    
+}
+
+.inputs:hover {
+    transform: scale(1.1); 
+}
+
+
